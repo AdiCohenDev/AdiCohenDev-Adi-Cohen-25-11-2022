@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap");
+@import "Colors.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+body {
+  font-family: "Arimo", sans-serif;
+  background-image: url("https://i.stack.imgur.com/b7z29.png");
+  animation: movement 40s linear infinite;
+  background-repeat: repeat-x;
+  background-color: #bfdfec;
+}
+
+@keyframes movement {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 560px 0px;
+  }
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+html.theme-toggle * {
+  transition: 250ms;
+}

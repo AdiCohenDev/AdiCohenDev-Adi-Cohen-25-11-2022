@@ -1,0 +1,50 @@
+:root {
+  --primary-color: rgba(255, 255, 255, 0.7);
+  --nav-color: transparent;
+  --secondary-color: #2a2929;
+  --container-color: rgba(255, 255, 255);
+  --second-container-color: rgba(234, 234, 234, 0.58);
+  --border-color: rgba(0, 0, 0, 0.19);
+  --shadow-color: rgba(0, 0, 0, 0.35);
+  --hover-container-color: rgba(255,255,255,0.7);
+  --container-small: #ccecfa;
+  --icon: #72c6e8;
+  --nav-border-color: rgba(31, 31, 31, 0.3);
+  --light-border: #e3e3e3;
+  --nav-text-color: whitesmoke;
+  --nav-link-color: #343434;
+  --nav-hover-link-color: #343434;
+  --nav-favorite-link: rgba(31, 31, 31, 0.3);
+  --font-color: #181818;
+  --favorites-font-color: #181818;
+  --text-xl: 72px;
+  --text-lg: 48px;
+  --text-md: 32px;
+  --text-sm: 20px;
+  --text-xs: 18px;
+  --text-xxs: 16px;
+}
+
+[data-theme="dark"] {
+  --primary-color: #333333;
+  --nav-color: #333333d6;
+  --container-small: rgba(0, 0, 0, 0.41);
+  --secondary-color: #2a2929;
+  --container-color: rgba(0, 0, 0, 0.53);
+  --hover-container-color: rgba(0, 0, 0, 0.63);
+  --nav-border-color: rgba(255, 255, 255, 0.3);
+  --light-border: rgba(19, 19, 19, 0.09);
+  --nav-text-color: #dedede;
+  --nav-link-color: #bebebe;
+  --nav-hover-link-color: #343434;
+  --nav-favorite-link: rgba(31, 31, 31, 0.3);
+  --nav-link-color-dark: rgba(31, 31, 31, 0.3);
+  --font-color: white;
+  --favorites-font-color: #181818;
+  --text-xl: 72px;
+  --text-lg: 48px;
+  --text-md: 32px;
+  --text-sm: 20px;
+  --text-xs: 18px;
+  --text-xxs: 16px;
+}

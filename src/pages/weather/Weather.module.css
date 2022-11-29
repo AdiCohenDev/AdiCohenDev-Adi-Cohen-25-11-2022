@@ -1,0 +1,114 @@
+.weatherContainer {
+  border-radius: 20px;
+  width: 80%;
+  margin: 1rem auto;
+  padding: 24px 20px;
+  flex: 1;
+  color: var(--font-color);
+  background-color: var(--hover-container-color);
+  box-shadow: var(--shadow-color) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border-color);
+}
+
+.saveToFavoritesIcon {
+  font-size: 42px;
+  color: #d95a4b;
+  text-align: right;
+}
+
+.WeatherStatus {
+  display: block;
+  text-align: center;
+  font-size: 42px;
+  margin-top: 32px;
+  letter-spacing: 2px;
+}
+
+.upcomingDaysWeather {
+  padding-inline: 1rem;
+  justify-content: space-between;
+  color: var(--font-color);
+  display: grid;
+  margin-top: 32px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.upcomingDaysContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.upcomingDay {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--container-small);
+  border: 1px solid var(--light-border);
+  color: var(--nav-link-color);
+  border-radius: 20px;
+  padding: 16px 32px;
+}
+
+.upcomingDay .degress {
+  font-size: 36px;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.setInCenter {
+  text-align: center;
+}
+
+.minMaxDegrees {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainWeatherDetails {
+  font-size: 72px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.day {
+  font-size: var(--text-sm);
+  letter-spacing: 1px;
+}
+
+.dayDetails {
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.autoCompleteContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.cityContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.selectCity {
+  font-size: 18px;
+}
+
+.selectCountry {
+  font-size: 12px;
+  color: #727272;
+}
+
+.cityContainer:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,64 @@
+.navbarContainer {
+  width: 100%;
+  border-bottom: 1px solid var(--nav-border-color);
+  background-color: var(--nav-color);
+}
+
+.navbar {
+  height: 40px;
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  cursor: pointer;
+  color: var(--nav-text-color);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.logo:hover {
+  color: var(--font-color);
+}
+
+.currentPage {
+  background-color: var(--font-color);
+}
+
+.space {
+  margin-left: 10px;
+}
+
+.navLink {
+  color: var(--nav-link-color);
+  margin: 10px;
+  font-size: var(--text-xxs);
+}
+
+.navLink:hover {
+  color: var(--font-color);
+}
+a {
+  text-decoration: none;
+}
+
+.userPreferenceToggleButtonsContainer {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .toggleDegreeContainer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .themeSwitchContainer {
+    display: none;
+  }
+}
