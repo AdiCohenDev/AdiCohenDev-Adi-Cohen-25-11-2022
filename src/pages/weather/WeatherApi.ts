@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiKey = "XchqC7ziKypYGN6F8R4Zo2UIYtvNlDOq";
+const apiKey = "cGwGfEmQJCUdnQeD1MgrwJFy8M4OKpwc";
 
 const getCityKeyArea = async (currentCity: string) => {
   const res = await axios(
